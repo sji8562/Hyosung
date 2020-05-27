@@ -1,0 +1,33 @@
+*{
+	margin: 0 auto; padding: 0;
+	list-style: none; font-family: "맑은 고딕";
+}
+a{text-decoration: none; color: inherit;
+}
+
+#header{
+	width: 1000px;height: 150px;
+}
+#logo{
+	width: 150px; height: 150px;
+	background-color: gray;
+	float: left;
+}
+#menu{
+	width: 850px; height: 150px;
+	background-color: pink;
+	float: left;
+}
+#wrap{
+	width: 1000px;height: 500px;
+}
+#left{
+	width: 150px;height: 500px;
+	background-color: green;
+	float: left;
+}
+#content{
+	width: 850px; height: 500px;
+	background-color:blue;
+	float: left;
+}

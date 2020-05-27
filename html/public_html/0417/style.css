@@ -1,0 +1,24 @@
+	*{
+			margin:0 auto;
+			padding:0;
+			list-style:none;
+			font-family:"맑은 고딕";
+		}
+		a{text-decoration:none;color:inherit;}
+		.p_color{
+			color:#00ff00;
+			font-size:2em;
+			background-color:purple;
+			padding:5px;
+			width:350px;
+			height:200px;
+			margin-top:300px;
+			text-align:center;
+			cursor:pointer;
+			border-radius:50px;
+		}
+		.P_color:hover{
+			background-color:magenta;
+			font-size:1.2em;
+		}
+/*css의 주석....*/

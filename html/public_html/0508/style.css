@@ -1,0 +1,25 @@
+*{
+	margin:0 auto;
+	padding: 0;
+	list-style:none;
+	font-family:"맑은 고딕";
+}
+a{text-decoration: none;color:inherit;}
+header{
+
+}
+.table {
+	width: 600px;
+	text-align: center;
+	margin-top:10px;
+	}
+.table tr>td {
+	font-size: 1.0em;
+	padding: 5px 0;
+	}
+.table1{
+	width: 500px;
+	margin-top:10px;
+	}
+.table1 tr>td {
+	}

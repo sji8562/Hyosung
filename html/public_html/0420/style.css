@@ -1,0 +1,15 @@
+*{
+	margin :0 auto;
+	padding: 0;
+	list-style: none;
+	font-family: "맑은 고딕";
+}
+a{ text-decoration: none; color : inherit; }
+p{color:red;background-color: none; }
+.p1 {font-size: 1.2em; border-radius: 5px;}
+.p2 {margin-top: 50px; width: 250px; color: red;}
+.bluetext{color: blue;}
+.div1{
+	width: 300px; height: 200px;
+	border: 1px solid #000000;
+}

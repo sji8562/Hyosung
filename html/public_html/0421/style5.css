@@ -1,0 +1,15 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	font-family: "맑은 고딕";
+}
+a{
+	text-decoration: none;color: inherit;
+}
+.book1{
+	list-style-type: lower-alpha;
+}
+.book2{
+	
+}
