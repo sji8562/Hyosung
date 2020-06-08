@@ -1,0 +1,347 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#topheader {
+  width: 100%;
+  height: 20px;
+  background-color: #33b3dd;
+}
+
+.topmenu {
+  width: 500px;
+	margin-right: 300px;
+}
+
+.topmenu>li {
+  float: left;
+  font-size: 0.5em;
+  color: #D9E5FF;
+  line-height: 20px;
+}
+
+.topmenu>li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.bt1 {
+  background-color: #379fc1;
+  border: none;
+  color: #D9E5FF;
+  font-size: 0.5em;
+  padding: 0 3px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.bt1:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #fbfbfb;
+}
+
+.logo {
+  width: 23%;
+  height: 60px;
+  float: left;
+}
+
+.logo>a>img {
+  width: 100%;
+  height: 90%;
+  padding: 3% 0;
+}
+
+.menu {
+	margin-left: 20px;
+	font-weight: bold;
+  width: 60%;
+  float: left;
+}
+
+.menu>li {
+  float: left;
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 5px 0;
+  position: relative;
+  width: 14%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.menu>li:hover {
+  color: #3fabdc;
+}
+
+#wrap {
+  width: 100%;
+}
+
+.imgslide {
+  width: 100%;
+  height: 250px;
+  background-color: #fbfbfb;
+  box-shadow: inset 0 4px 4px 0 #d6d6d6;
+}
+
+.slide1 {
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.slide2 {
+  width: 25%;
+  height: 100%;
+  background-color: pink;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide2 img {
+  position: absolute;
+  width: 100%;
+  height: 51%;
+}
+
+.submenu {
+  width: 125px;
+  position: absolute;
+  border: 1px solid #999;
+  z-index: 99;
+  text-align: left;
+  /* margin-top:10px; */
+  background-color: #fff;
+  display: none;
+}
+
+.submenu>li {
+  margin-left: 10px;
+  padding: 5px 0;
+  font-size: 0.8em;
+  cursor: pointer;
+  color: black;
+}
+
+.submenu>li:hover {
+  color: #81c1ff;
+}
+
+.clear {
+  clear: both;
+}
+
+.info {
+  width: 70%;
+}
+
+.title1 {
+  font-size: 0.7em;
+  float: left;
+  font-weight: bold;
+  color: #33b3dd;
+  padding: 5px 0;
+}
+
+.title2 {
+  font-size: 0.6em;
+  float: right;
+  padding: 5px 0;
+	margin-right: 190px;
+}
+
+.title2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.table1 {
+  width: 85%;
+	float: left;
+  text-align: center;
+  border: 1px solid #EAEAEA;
+  border-collapse: collapse;
+}
+
+.table1 tr>td {
+  width: 50%;
+  font-size: 0.65em;
+}
+
+.table1 tr>td:hover {
+  background-color: #33b3dd;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#korea, #busan {
+  display: none;
+  width: 100%;
+}
+
+.table2 {
+	float: left;
+  font-size: 0.65em;
+  width: 85%;
+  border-collapse: collapse;
+  height: 150px;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.img {
+  width: 23%;
+  float: left;
+  text-align: center;
+}
+
+.img>img {
+  width: 90%;
+  height: 90px;
+}
+
+.write {
+  text-align: left;
+  width: 90%;
+}
+
+.mid_banner {
+  width: 70%;
+  height: 80px;
+}
+
+.mid1, .mid3 {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 100%;
+}
+
+.mid2 {
+  width: 35%;
+  float: left;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 100%;
+}
+
+.mid1>a>img {
+  width: 100%;
+  height: 100%;
+}
+
+.mid3>a>img {
+  width: 100%;
+  height: 100%;
+}
+
+.mid2>li {
+  width: 32%;
+  float: left;
+  height: auto;
+  height: 100%;
+  text-align: center;
+}
+
+.mid2>li>a>img {
+  width: 85%;
+  height: 100%;
+}
+
+.mid_info {
+  width: 70%;
+  height: 280px;
+  margin-top: 20px;
+}
+
+.left_banner {
+  width: 15%;
+  height: 280px;
+  float: left;
+  margin-left: 5px;
+}
+
+.content {
+  width: 75%;
+  float: left;
+  margin-left: 10px;
+}
+
+.notice, .counseling, .employment, .notice1 {
+  width: 44%;
+  height: 140px;
+  float: left;
+  padding: 0 10px;
+}
+.table3 tr>td:hover{
+	color:#7fb8cc;
+	cursor:pointer;
+	text-decoration: underline;
+}
+
+.title3 {
+  width: 100%;
+  height: 20px;
+}
+
+.title3_1 {
+  float: left;
+  height: 15px;
+}
+
+.title3_1>img {
+  width: 100%;
+  height: 100%;
+}
+
+.title3_2 {
+  width: 15%;
+  float: right;
+  font-size: 0.5em;
+  color: #a7a7a7;
+  margin-top: 8px;
+  font-family: "맑은 고딕";
+}
+
+.table3 {
+  width: 100%;
+  font-size: 0.6em;
+  border-collapse: collapse;
+  border-top: 2px solid #dfdfdf;
+  margin-top: 4px;
+}
+
+.table3 tr>td {
+  padding: 2px 0;
+  border-bottom: 1px solid #dfdfdf;
+}
