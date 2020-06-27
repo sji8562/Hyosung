@@ -1,0 +1,499 @@
+*{
+  margin:0 auto;
+  padding: 0;
+  font-family:"맑은 고딕";
+  list-style: none;
+}
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+header{
+  height: 100px;
+  /*overflow: hidden;*/
+  width: 98%;
+  padding: 10px;
+  position: relative;
+  /*border:1px solid;*/
+}
+
+
+   .logo{
+     float: left;
+     font-size: 10px;
+     color: #fff;
+     width:250px;
+     height:100px;
+     margin-top:0.2%;
+     /* border:1px solid; */
+   }
+
+
+   .logo>a>img{
+     width: 100%;
+     height:100%;
+     /*border:1px solid;*/
+   }
+
+
+#notice{
+     width:60%;
+     margin-top:50px;
+     }
+
+ .login{
+   width:17%;
+   /*float:right;*/
+   position:absolute;
+   top:10px;right:10%;
+   font-size:0.8em;
+   /* border:1px solid; */
+   font-weight: bold;
+ }
+
+
+nav{
+  position: absolute;
+  /*float: right;*/
+  float: left;
+   margin-top: 2%; 
+   /*border:1px solid; */
+  margin-left: 32%;
+  width:40%;
+  /*margin-right: 10px;*/
+  /*left: 20px;*/
+  /*padding: 10px;*/
+ }
+
+
+nav a{
+  font-family: 'Odibee Sans', cursive;
+  font-size: 28px;   
+  text-align: center;
+  /*left: 20px;*/
+  /*right: 20px;*/
+  /*border:1px solid;*/
+}
+
+
+   .menu{
+     width: 700px;
+   }
+
+   .menu>li{
+     float: left;
+     width:30%;
+     padding: 10px ;
+     position: relative; 
+   }
+   
+   .submenu{
+     display: none;
+     position: absolute;
+     z-index: 99;
+   }
+   .submenu>li{
+     padding:5px 0;
+   }
+
+   .gnb_menu{
+     display: none;
+   }
+
+   .menu_detail{
+     margin-top:60px;
+   }
+
+
+ #imgslide{
+ margin-top: 4.7%;
+ width:70%;height:380px;
+ overflow:hidden;
+ border-radius:20px;
+ position: relative;
+}
+.imgs{
+ width:100%;height:100%;
+ position:relative;
+}
+.imgs img{
+ width:100%;height:100%;
+ position:absolute;
+}
+#stores{
+ width:80%;margin-top:30px;
+}
+.stores1{
+ width:20%;float:left;
+ margin-top:20px;
+}
+.pic{
+ width:85%;height:130px;
+ overflow:hidden;
+ border:2px solid red;
+}
+.pic img{
+ width:100%;height:100%;
+}
+.hot_title{
+ width:80%;font-size:4em;
+ font-family: 'Nanum Pen Script', cursive;
+ text-align:center;
+}
+.no{
+ text-align:center;
+ padding-bottom:10px;
+ font-family: 'Jua', sans-serif;
+ font-size: 25px;
+}   
+
+
+section{
+  overflow: hidden;
+  /*max-width: 1000px;*/
+  width: 1000px;
+  /*margin:50px auto;*/
+  }
+
+
+ .list{
+   overflow: hidden;
+   }
+
+
+ .list li{float:left;
+   width:23%;
+   margin-left: 7%;
+   height: 250px;
+   margin-top: 5%;
+   /*border:1px solid black;*/
+   }
+
+
+   .inner{
+   height: 200px;
+   margin-top: 40px;
+   width: 75%;
+   display:block;
+   /*margin-left:10px;*/
+   margin-bottom: 10px;
+  /*border:1px solid;*/
+  /*text-align: center;*/
+   }
+
+
+   .thumb{
+     width: 300px;
+   }
+
+
+   .thumb img{
+       width: 80%;
+      height: 130px;
+      /*padding:0 5px;*/
+     margin:7px;
+     /*border:1px solid red;*/
+   }
+
+
+   .title{
+     width: 100px;
+     /*height: px;*/
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     margin-top: 1px;
+     padding: 11px 0;
+     text-align: center;
+     font-family: 'Nanum Pen Script', cursive;
+     font-size: 25px;
+     /*border:1px solid blue;*/
+     }
+
+.table1{
+  font-family: 'Odibee Sans', cursive;
+  width: 70%;
+  height: 380px;
+  /*border:1px solid;*/
+}
+
+
+   .table1 tr>td{
+     padding: 20px;
+     font-family: 'Nanum Pen Script', cursive;
+     font-size: 30px;
+   }
+
+
+   .table1 tr>th{
+     font-family: 'Nanum Pen Script', cursive;
+     font-size: 50px;
+   }
+   .table1 tr>td>a{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+
+   }
+
+
+.table2{
+     border-bottom:2px solid #333;
+     border-collapse:collapse;
+
+     }
+
+
+ .table2 tr>th{
+   padding:15px 0;
+   border-bottom:2px solid #333;
+   font-size:1.3em;
+ }
+
+
+ .table2 tr>td{
+   padding:8px;
+   border-bottom:1px solid #333;
+   font-size:0.8em;
+   /*font-weight: bold;*/
+   font-family: 'jua',sans-serif;
+  
+ }
+
+.table3{
+  /*   font-family: 'Odibee Sans', cursive;*/
+     width: 50%;
+     /* border:1px solid; */
+     text-align: center;
+     margin-left:25%;
+  }
+
+
+  .table3 tr>td{
+     padding-bottom: 10px;
+     font-size: 20px;
+  }
+  
+  .table4{
+   width: 50%;
+   margin-top: 7%;
+   /*border:1px solid;*/
+  }
+
+
+  .table4 tr>th{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 50px;
+   }
+
+  .table4 tr>td{
+     font-family: 'Nanum Pen Script', cursive;
+     padding-bottom: 10px;
+     font-size: 30px;
+   }
+
+.mtable{
+  position: relative;
+  text-align: center;
+}
+
+
+   .bt1{
+     padding: 5px;
+     border-radius: 5px;
+     border:none;
+     background-color: #3c467d;
+     color: #fff;
+     cursor: pointer;
+     font-size: 20px;
+     font-family: 'Nanum Pen Script', cursive;
+     }
+
+
+   .bt2{
+     margin-top: 30px;
+      width: 15%;
+     height: 30px;
+     border-radius: 5px;
+     border:none;
+     background-color: #3c467d;
+     color: #fff;
+     cursor: pointer;
+     font-size: 20px;
+     font-family: 'Nanum Pen Script', cursive;
+    }
+
+   .bt2:hover{
+     opacity:0.5;cursor:pointer;
+   }
+ .clear{
+   clear: both;
+ }
+
+footer{
+ height: 50px;
+ font-family: 'Jua', sans-serif;
+ line-height: 50px;
+ font-weight: bold;
+ font-size: 16px;
+ color: #000;
+ text-align: center;
+}    
+
+
+
+@media screen and (max-width:767px),screen and(max-height:767px)(orientation:landscape){
+ nav{
+   display:none;
+   position: absolute;
+   right: 1%;
+   /* top:50px; */
+   margin-top: 23%;
+   /* margin-left: 60px; */
+   /* margin-bottom:20px; */
+   z-index:20;
+   width:200px;
+   height:150px;
+   /*background-color: lightslategray;*/
+   /* border:1px solid; */
+ }
+ .menu{
+   width: 30%;
+   margin-top: 2%;
+   margin-right: 41%;
+ }
+ nav a{
+   display: block;
+   padding: 5% 0px;
+   font-size: 18px;
+   /* border-bottom: 10px solid #fff; */
+   z-index: 21;
+   width:100%;
+   /* border:1px solid; */
+   /* float: left; */
+   /*background-color: lightslategray;*/
+ }
+ .gnb_menu{
+   position: absolute;
+   top: 51%;left: 80%;display: block;
+   width: 10%;height: 35px;font-size: 1px;
+   color: transparent;
+   background:linear-gradient(#000 50%,transparent 40%);
+   background-size: 100% 10px;
+   border: 1px solid;
+ }
+ section{
+    width: 100%;
+    margin-top: 15px;
+
+ }
+ .list li{
+   width:100%;
+ }
+ .inner{
+   margin:2px;
+   display: table;
+   table-layout: fixed;
+ }
+ .thumb{
+   display: table-cell;width:100px;
+   float: left;
+   /*left: -30px;*/
+ }
+ .thumb>img{
+    width: 100%;
+    height: 100px;
+ }
+ .title{
+   display:table-cell;
+   vertical-align: middle;
+   background-color: #fff; padding: 8px;
+   color: #000;
+   text-overflow: inherit;
+   white-space: inherit;
+   text-align: left;
+ }
+ .table1{
+  width: 200px;
+  height: 100px;
+  /*border:1px solid;*/
+
+}
+
+ footer{
+    color:black;
+ }
+
+}
+
+#speak,#hugi{
+  padding:5px;
+  font-size:0.9em;
+  cursor:pointer;
+  width:290px;
+  text-align:center;
+  background-color:#999;
+}
+.speak1,.hugi1{
+  width:600px;display:none;
+}
+#imgslide{
+  margin-top: 4.7%;
+  width:70%;height:400px;
+  overflow:hidden;
+  position:relative;
+ }
+ #imgslide img{
+  width: 100%;height:100%;
+  position: absolute;
+}
+.slides li{
+  display: none;
+}
+.slides li:first-child{
+  display: block;
+}
+.slide li img{
+  width: 100%;
+  height: 350px;
+}
+.btn_slides{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5%;
+
+}
+.btn_slides a.off{
+  opacity: 0.3;cursor: default;
+}
+
+ #stores{
+  width:80%;margin-top:30px;
+ }
+ .stores1{
+  width:20%;float:left;
+  margin-top:20px;
+ }
+ .pic{
+  width:85%;height:130px;
+  overflow:hidden;
+  border:2px solid red;
+ }
+ .pic img{
+  width:100%;height:100%;
+ }
+ .hot_title{
+  width:80%;font-size:4em;
+  font-family: 'Nanum Pen Script', cursive;
+  text-align:center;
+ }
+ .no{
+  text-align:center;
+  padding-bottom:10px;
+  font-family: 'Jua', sans-serif;
+  font-size: 25px;
+ }   
